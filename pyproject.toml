@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "l33tcode-py"
+version = "0.1.0"
+description = "Leetcode solutions in Python3"
+authors = ["Sanjay T Sharma <sanjay.t.sharma@gmail.com>"]
+license = "Apache"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
